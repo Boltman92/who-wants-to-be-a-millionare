@@ -30,7 +30,7 @@ const useGameStore = create<GameStoreState>()(
             };
           }
           return {
-            score: state.score + sum,
+            score: sum,
             currentQuestionIndex: state.currentQuestionIndex + 1,
           };
         }),

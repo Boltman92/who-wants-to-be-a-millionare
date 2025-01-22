@@ -1,7 +1,7 @@
 'use client';
 
 import useGameStore from '@/app/store/gameStore';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import styles from './question.module.css';
 import Variant from '../Variant';
@@ -25,9 +25,15 @@ export default function Question() {
 
   const currentQuestion = questions[currentQuestionIndex];
 
-  const { question, variants } = currentQuestion;
+  useEffect(() => {
+    if (!currentQuestion) {
+      router.push('/results');
+    }
+  }, [currentQuestion, router]);
 
-  const renderVariants = variants.map((variant, index) => {
+  const { question, variants } = currentQuestion ?? {};
+
+  const renderVariants = variants?.map((variant, index) => {
     const value = (
       <div className={styles.variantValue}>
         <span className={styles.variantLabel}>{VARIANTS[index]}</span>

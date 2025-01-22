@@ -15,7 +15,7 @@
           "correctAnswers": [
             2
           ],
-          "sum": 100
+          "sum": 500
         },
         {
           "id": 2,
@@ -29,13 +29,13 @@
           "correctAnswers": [
             1
           ],
-          "sum": 200
+          "sum": 1000
         },
         {
           "id": 3,
           "question": "Who wrote 'Hamlet'?",
           "variants": [
-            "Leo Tolstoy",
+            "Taras Shevchenko",
             "William Shakespeare",
             "Mark Twain",
             "Charles Dickens"
@@ -43,7 +43,7 @@
           "correctAnswers": [
             1
           ],
-          "sum": 300
+          "sum": 2000
         },
         {
           "id": 4,
@@ -57,7 +57,7 @@
           "correctAnswers": [
             3
           ],
-          "sum": 400
+          "sum": 4000
         },
         {
           "id": 5,
@@ -71,7 +71,7 @@
           "correctAnswers": [
             0
           ],
-          "sum": 500
+          "sum": 8000
         },
         {
           "id": 6,
@@ -85,7 +85,7 @@
           "correctAnswers": [
             1
           ],
-          "sum": 600
+          "sum": 16000
         },
         {
           "id": 7,
@@ -99,7 +99,7 @@
           "correctAnswers": [
             0
           ],
-          "sum": 700
+          "sum": 32000
         },
         {
           "id": 8,
@@ -113,7 +113,7 @@
           "correctAnswers": [
             1
           ],
-          "sum": 800
+          "sum": 64000
         },
         {
           "id": 9,
@@ -127,7 +127,7 @@
           "correctAnswers": [
             2
           ],
-          "sum": 900
+          "sum": 125000
         },
         {
           "id": 10,
@@ -141,7 +141,35 @@
           "correctAnswers": [
             0
           ],
-          "sum": 1000
+          "sum": 250000
+        },
+        {
+          "id": 11,
+          "question": "What is the rarest blood type in the world?",
+          "variants": [
+            "AB-",
+            "O+",
+            "B-",
+            "A+"
+          ],
+          "correctAnswers": [
+            0
+          ],
+          "sum": 500000
+        },
+        {
+          "id": 12,
+          "question": "Who was the first person to win two Nobel Prizes in different sciences?",
+          "variants": [
+            "Albert Einstein",
+            "Marie Curie",
+            "Linus Pauling",
+            "Frederick Sanger"
+          ],
+          "correctAnswers": [
+            1
+          ],
+          "sum": 1000000
         }
       ]
   }

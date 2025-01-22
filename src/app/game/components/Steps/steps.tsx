@@ -24,7 +24,16 @@ export default function Steps() {
       return 'default';
     })();
 
-    return <Step value={question.sum} key={question.id} type={type} />;
+    return (
+      <Step
+        value={question.sum.toLocaleString('en-US', {
+          style: 'currency',
+          currency: 'USD',
+        })}
+        key={question.id}
+        type={type}
+      />
+    );
   });
 
   return (
