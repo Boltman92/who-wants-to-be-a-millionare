@@ -1,0 +1,11 @@
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 5vh;
+}
+
+.smallText {
+    opacity: 0.5;
+    font-size: 4vh;
+}

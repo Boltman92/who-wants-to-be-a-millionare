@@ -1,0 +1,148 @@
+{
+      "numberOfCorrectAnswers": 1,
+      "numberOfVariants": 4,
+      "numberOfQuestions": 15,
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the capital of France?",
+          "variants": [
+            "Berlin",
+            "Madrid",
+            "Paris",
+            "Rome"
+          ],
+          "correctAnswers": [
+            2
+          ],
+          "sum": 100
+        },
+        {
+          "id": 2,
+          "question": "Which planet is known as the Red Planet?",
+          "variants": [
+            "Earth",
+            "Mars",
+            "Jupiter",
+            "Venus"
+          ],
+          "correctAnswers": [
+            1
+          ],
+          "sum": 200
+        },
+        {
+          "id": 3,
+          "question": "Who wrote 'Hamlet'?",
+          "variants": [
+            "Leo Tolstoy",
+            "William Shakespeare",
+            "Mark Twain",
+            "Charles Dickens"
+          ],
+          "correctAnswers": [
+            1
+          ],
+          "sum": 300
+        },
+        {
+          "id": 4,
+          "question": "What is the largest ocean on Earth?",
+          "variants": [
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Arctic Ocean",
+            "Pacific Ocean"
+          ],
+          "correctAnswers": [
+            3
+          ],
+          "sum": 400
+        },
+        {
+          "id": 5,
+          "question": "Which element has the chemical symbol 'O'?",
+          "variants": [
+            "Oxygen",
+            "Gold",
+            "Osmium",
+            "Carbon"
+          ],
+          "correctAnswers": [
+            0
+          ],
+          "sum": 500
+        },
+        {
+          "id": 6,
+          "question": "What is the square root of 64?",
+          "variants": [
+            "6",
+            "8",
+            "7",
+            "9"
+          ],
+          "correctAnswers": [
+            1
+          ],
+          "sum": 600
+        },
+        {
+          "id": 7,
+          "question": "What is the smallest planet in our solar system?",
+          "variants": [
+            "Mercury",
+            "Mars",
+            "Earth",
+            "Venus"
+          ],
+          "correctAnswers": [
+            0
+          ],
+          "sum": 700
+        },
+        {
+          "id": 8,
+          "question": "Who painted the Mona Lisa?",
+          "variants": [
+            "Vincent van Gogh",
+            "Leonardo da Vinci",
+            "Michelangelo",
+            "Pablo Picasso"
+          ],
+          "correctAnswers": [
+            1
+          ],
+          "sum": 800
+        },
+        {
+          "id": 9,
+          "question": "What is the capital of Japan?",
+          "variants": [
+            "Beijing",
+            "Seoul",
+            "Tokyo",
+            "Bangkok"
+          ],
+          "correctAnswers": [
+            2
+          ],
+          "sum": 900
+        },
+        {
+          "id": 10,
+          "question": "What is the chemical symbol for water?",
+          "variants": [
+            "H2O",
+            "O2",
+            "CO2",
+            "NaCl"
+          ],
+          "correctAnswers": [
+            0
+          ],
+          "sum": 1000
+        }
+      ]
+  }
+  

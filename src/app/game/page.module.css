@@ -1,0 +1,35 @@
+.page {
+    --black-5: #F5F5F7;
+    --black-40: #D0D0D8;
+    --step-width: 40px;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--black-5);
+}
+
+.step {
+    position: relative;
+    width: 100%;
+    min-height: var(--step-width);
+    display: flex;
+    align-items: center;
+    border: 0;
+    background-color: inherit;
+}
+
+.stepValue {
+    position: relative;
+    z-index: 2;
+    min-width: var(--step-width);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.line {
+    border: 1px solid var(--black-40);
+    flex: 1;
+    height: 0;
+}

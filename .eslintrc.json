@@ -1,0 +1,47 @@
+{
+    "root": true,
+    "extends": [
+      "airbnb",
+      "airbnb/hooks",
+      "next/core-web-vitals",
+      "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2022,
+      "sourceType": "module"
+    },
+    "env": {
+      "browser": true,
+      "es2021": true,
+      "node": true
+    },
+    "plugins": ["prettier"],
+    "rules": {
+      "prettier/prettier": "error",
+      "react/react-in-jsx-scope": "off",
+      "react/jsx-props-no-spreading": "off",
+      "react/jsx-filename-extension": [
+        1,
+        { "extensions": [".jsx", ".tsx"] }
+      ],
+      "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "camelcase": "off",
+    "react/require-default-props": [
+    "error",
+    {
+      "functions": "defaultArguments" // Allows default values via function arguments
+    }
+  ]
+    },
+    "ignorePatterns": ["node_modules", "dist"]
+  }
+  
