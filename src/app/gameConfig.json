@@ -12,9 +12,6 @@
             "Paris",
             "Rome"
           ],
-          "correctAnswers": [
-            2
-          ],
           "sum": 500
         },
         {
@@ -25,9 +22,6 @@
             "Mars",
             "Jupiter",
             "Venus"
-          ],
-          "correctAnswers": [
-            1
           ],
           "sum": 1000
         },
@@ -40,9 +34,6 @@
             "Mark Twain",
             "Charles Dickens"
           ],
-          "correctAnswers": [
-            1
-          ],
           "sum": 2000
         },
         {
@@ -53,9 +44,6 @@
             "Indian Ocean",
             "Arctic Ocean",
             "Pacific Ocean"
-          ],
-          "correctAnswers": [
-            3
           ],
           "sum": 4000
         },
@@ -68,9 +56,6 @@
             "Osmium",
             "Carbon"
           ],
-          "correctAnswers": [
-            0
-          ],
           "sum": 8000
         },
         {
@@ -82,9 +67,7 @@
             "7",
             "9"
           ],
-          "correctAnswers": [
-            1
-          ],
+          
           "sum": 16000
         },
         {
@@ -95,9 +78,6 @@
             "Mars",
             "Earth",
             "Venus"
-          ],
-          "correctAnswers": [
-            0
           ],
           "sum": 32000
         },
@@ -110,9 +90,6 @@
             "Michelangelo",
             "Pablo Picasso"
           ],
-          "correctAnswers": [
-            1
-          ],
           "sum": 64000
         },
         {
@@ -123,9 +100,6 @@
             "Seoul",
             "Tokyo",
             "Bangkok"
-          ],
-          "correctAnswers": [
-            2
           ],
           "sum": 125000
         },
@@ -138,9 +112,6 @@
             "CO2",
             "NaCl"
           ],
-          "correctAnswers": [
-            0
-          ],
           "sum": 250000
         },
         {
@@ -152,9 +123,6 @@
             "B-",
             "A+"
           ],
-          "correctAnswers": [
-            0
-          ],
           "sum": 500000
         },
         {
@@ -165,9 +133,6 @@
             "Marie Curie",
             "Linus Pauling",
             "Frederick Sanger"
-          ],
-          "correctAnswers": [
-            1
           ],
           "sum": 1000000
         }

@@ -58,22 +58,35 @@ export default function Question() {
 
         await delay(500);
 
-        const isCorrect = currentQuestion.correctAnswers[0] === index;
-
-        setTypeByStep({
-          ...typeByStep,
-          [index]: isCorrect ? 'correct' : 'wrong',
+        const response = await fetch('/api/check-answer', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            id: currentQuestion.id,
+            selectedAnswers: [index],
+          }),
         });
-        await delay(500);
 
-        if (!isCorrect) {
-          nextQuestion(isCorrect, currentQuestion.sum);
-          router.push('/results');
-        } else {
-          nextQuestion(isCorrect, currentQuestion.sum);
-          setTypeByStep({ ...typeByStep, [index]: 'default' });
+        if (response.ok) {
+          const res = await response.json();
+          const { isCorrect } = res;
+          setTypeByStep({
+            ...typeByStep,
+            [index]: isCorrect ? 'correct' : 'wrong',
+          });
+          await delay(500);
+
+          if (!isCorrect) {
+            nextQuestion(isCorrect, currentQuestion.sum);
+            router.push('/results');
+          } else {
+            nextQuestion(isCorrect, currentQuestion.sum);
+            setTypeByStep({ ...typeByStep, [index]: 'default' });
+          }
+          setSelectedVariant(null);
         }
-        setSelectedVariant(null);
+      } else {
+        router.push('/results');
       }
     };
 
