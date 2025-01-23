@@ -1,5 +1,3 @@
-'use client';
-
 import MainPageContent from './components/MainPageContent/MainPageContent';
 
 export default function Home() {
